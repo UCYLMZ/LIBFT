@@ -6,7 +6,7 @@
 /*   By: uyilmaz <uyilmaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 02:30:40 by uyilmaz           #+#    #+#             */
-/*   Updated: 2022/10/19 04:06:33 by uyilmaz          ###   ########.fr       */
+/*   Updated: 2022/10/21 11:51:42 by uyilmaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	size_t	len;
 	size_t	i;
 
-	len = strlen(src);
+	len = ft_strlen(src);
 	i = 0;
 	if (dstsize != 0)
 	{
